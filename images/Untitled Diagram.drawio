@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T12:24:41.325Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="aSAhN4nirkRQzotXIIyJ" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-18T02:26:11.881Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="Kif1zY9gGdD7_cHA5b3d" version="16.5.6" type="github">
   <diagram id="bUlH8hTkWng0hmFy_uGy" name="Page-1">
     <mxGraphModel dx="1391" dy="747" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -877,16 +877,16 @@
         <mxCell id="Id4UkKMKJp73SKG3xCHG-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Id4UkKMKJp73SKG3xCHG-68" target="Id4UkKMKJp73SKG3xCHG-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Id4UkKMKJp73SKG3xCHG-68" value="控制电路" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="Id4UkKMKJp73SKG3xCHG-68" value="中断请求寄存器&lt;br&gt;IRR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="460" y="5948" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Id4UkKMKJp73SKG3xCHG-69" value="控制电路" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="Id4UkKMKJp73SKG3xCHG-69" value="中断服务寄存器&lt;br&gt;ISR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="460" y="6172" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Id4UkKMKJp73SKG3xCHG-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Id4UkKMKJp73SKG3xCHG-70" target="Id4UkKMKJp73SKG3xCHG-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Id4UkKMKJp73SKG3xCHG-70" value="控制电路" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="Id4UkKMKJp73SKG3xCHG-70" value="优先级判别器&lt;br&gt;PR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="460" y="6057.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Id4UkKMKJp73SKG3xCHG-72" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Id4UkKMKJp73SKG3xCHG-70">
@@ -895,14 +895,30 @@
             <mxPoint x="425" y="6093" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Id4UkKMKJp73SKG3xCHG-78" value="中断屏蔽寄存器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="645.5" y="6113" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Id4UkKMKJp73SKG3xCHG-79" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="388" y="6208" as="sourcePoint" />
-            <mxPoint x="438" y="6158" as="targetPoint" />
+        <mxCell id="Id4UkKMKJp73SKG3xCHG-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Id4UkKMKJp73SKG3xCHG-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="619" y="6088" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="619" y="6058" />
+              <mxPoint x="619" y="5978" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Id4UkKMKJp73SKG3xCHG-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Id4UkKMKJp73SKG3xCHG-78" target="Id4UkKMKJp73SKG3xCHG-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Id4UkKMKJp73SKG3xCHG-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="644.5" y="6088" as="sourcePoint" />
+            <mxPoint x="579" y="6202" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="619" y="6088" />
+              <mxPoint x="619" y="6202" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Id4UkKMKJp73SKG3xCHG-78" value="中断屏蔽寄存器&lt;br&gt;IMR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="645.5" y="6058" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Id4UkKMKJp73SKG3xCHG-82" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=10;endSize=4.65;" edge="1" parent="1" target="Id4UkKMKJp73SKG3xCHG-78">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
