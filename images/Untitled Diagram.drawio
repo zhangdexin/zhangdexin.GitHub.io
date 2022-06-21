@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T11:29:20.008Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="UGGzibW9pLjnSQiRP0mS" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-21T12:49:49.912Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="sVGN9oTO3BIcCPkEn1q7" version="20.0.1" type="github">
   <diagram id="bUlH8hTkWng0hmFy_uGy" name="Page-1">
     <mxGraphModel dx="1422" dy="747" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1698,6 +1698,12 @@
           <mxGeometry x="225" width="55" height="40" as="geometry">
             <mxRectangle width="55" height="40" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Yvdx2jAnjMqSNnd088Xk-7" value="选择器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="117" y="8828" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yvdx2jAnjMqSNnd088Xk-8" value="描述符缓冲器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="8832" width="77" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
